@@ -1,0 +1,8 @@
+name: My Github First Action
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [workflow_dispatch]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Database Username :${{ secret.DATABASE_USERNAME }} event."
