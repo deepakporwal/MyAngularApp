@@ -1,0 +1,17 @@
+name: My Workflow
+on: workflow_dispatch
+
+jobs:
+  my_first_job:
+   name: Print Shree Radhe Radhe
+   runs-on: ubuntu-latest
+   steps:
+     - name: Print Message
+       run: echo "Shree Radhe Radhe"
+  my_Second_job:
+   name: Print Jai Shree Krishna
+   runs-on: ubuntu-latest
+   steps:
+     - name: Print Shree Krishna
+       run: echo "Jai Shree Krishna"
+   
